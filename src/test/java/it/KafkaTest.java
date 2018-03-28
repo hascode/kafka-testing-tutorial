@@ -37,6 +37,7 @@ public class KafkaTest {
 
     List<String> allMessages = kafkaUnitServer.readAllMessages(topicName);
     assertThat("topic should contain only one message", allMessages.size(), equalTo(1));
-    assertThat("the message should match the published message", allMessages.get(0), equalTo("Hello world from hascode.com :)"));
+    assertThat("the message should match the published message", allMessages.get(0),
+        equalTo("Hello world from hascode.com :)"));
   }
 }
