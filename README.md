@@ -22,4 +22,4 @@ mvn test
    [Maven]:http://maven.apache.org/
    [JUnit]:http://junit.org/
    [kafka-unit]:https://github.com/chbatey/kafka-unit
-   [full article]:http://www.hascode.com/2018/03/setting-up-kafka-and-zookeeper-for-testing-with-kafka-unit 
+   [full article]:http://www.hascode.com/2018/03/setting-up-kafka-brokers-for-testing-with-kafka-unit/ 
